@@ -1,13 +1,15 @@
 import React from "react";
-
+import '../App.css'
 const StoryList = ({ stories, onStoryClick }) => {
   return (
-    <div className="overflow-x-auto whitespace-nowrap no-scrollbar px-4 pt-10 pb-2">
-      <div className="flex gap-3">
+    <div
+      className="overflow-x-auto whitespace-nowrap minimal-scrollbar px-4 pt-10 pb-2 "
+    >
+      <div className="flex gap-3 min-w-max">
         {stories.map((story, index) => (
           <div
             key={story.id}
-            className="text-center cursor-pointer inline-block"
+            className="text-center cursor-pointer"
             onClick={() => onStoryClick(index)}
           >
             <div className="w-20 h-20 rounded-full p-[3px] bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500">
