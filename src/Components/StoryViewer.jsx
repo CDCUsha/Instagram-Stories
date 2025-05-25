@@ -54,7 +54,7 @@ const StoryViewer = ({
         setCurrentIndex((prev) => prev - 1);
       } else {
         if (onPrevUser) {
-          onPrevUser(story.stories.length - 1); 
+          onPrevUser(story.stories.length - 1);
         } else {
           onClose();
         }
@@ -118,17 +118,19 @@ const StoryViewer = ({
         ))}
       </div>
 
-      {/* {loading && (
+      {loading && (
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-10 h-10 border-4 border-white border-t-transparent rounded-full animate-spin" />
         </div>
-      )} */}
+      )}
 
       <img
-        key={currentIndex} 
+        key={currentIndex}
         src={story.stories[currentIndex]}
         alt={`Story ${currentIndex + 1}`}
-        className={`max-w-full max-h-full object-contain transition-opacity duration-300 `}
+        className={`max-w-full max-h-full object-contain transition-opacity duration-300 ${
+          loading ? "opacity-0" : "opacity-100"
+        }`}
         onLoad={() => setLoading(false)}
         draggable={false}
       />
