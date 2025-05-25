@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "username": "Riya",
+    "avatar": "/images/weddingImg3.jpg",
+    "stories": [
+      "/images/weddingImg3.jpg",
+      "/images/weddingImg1.jpg",
+      "/images/weddingImg2.jpg",
+      "/images/weddingGuests.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "username": "Tony",
+    "avatar": "/images/ocean.jpg",
+    "stories": [
+      "/images/ocean.jpg",
+      "/images/butterfly.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "username": "Dev",
+    "avatar": "/images/guard.jpg",
+    "stories": [
+      "/images/guard.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "username": "Jessica",
+    "avatar": "/images/wedding.jpg",
+    "stories": [
+      "/images/wedding.jpg",
+      "/images/wedding2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "username": "Maya",
+    "avatar": "/images/KA.jpg",
+    "stories": [
+      "/images/KA.jpg",
+      "/images/bharatanatyam.jpg",
+      "/images/bride.jpg"
+    ]
+  }
+]
